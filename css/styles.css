@@ -1,1 +1,96 @@
+:root {
+  --pimary-tex-color: #757575;
+  --accent-tex-color: #2196f3;
+  --secondary-tex-color: #212121;
+  --clear-white-text-color: #ffffff;
+}
 
+/* палитра */
+/* основной цвет фона   #ffffff */
+/* дополнительный цвет фона     #F5F4FA */
+/* цвет основного текста   #757575 */
+/* цвет вторичного цвета     #212121  */
+/* дополнительный  цвет текста     #FFFFFF  */
+/* цвет акцента   #2196F3 */
+/* цвет акцента главной  кнопки    #188CE8 */
+/* цвет адреса   rgba(255, 255, 255, 0.6) */
+/* цвет фона героя и футера #2F303A */
+/* дополнительный цвет текста логотипа  #000000 */
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  color: var(--pimary-tex-color);
+}
+/* *********************style reset******************************* */
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/* **************************************************** */
+/* шапка сайта студии */
+/* ____________________________________________________________________________________________________ */
+.logo {
+  font-family: raleway, sans-serif;
+  color: var(--accent-tex-color);
+}
+.logo-header {
+  color: #000000;
+}
+.logo-footer {
+  color: var(--clear-white-text-color);
+}
+/* ______________________________________________________________________________________________________ */
+/* навигация */
+.site-nav .link {
+  color: var(--secondary-tex-color);
+}
+.contacts .link {
+  color: var(--pimary-tex-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contacts .link:hover,
+.contacts .link:focus,
+.adress-contacts .link:hover,
+.adress-contacts .link:focus {
+  color: #2196f3;
+}
+/* ________________________________________________________________________________________________ */
+/* герой */
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: var(--clear-white-text-color);
+}
+
+/* секция преимущества компании */
+
+.section-title,
+.advantage-title,
+.team-title {
+  color: var(--secondary-tex-color);
+}
+.our-team {
+  background-color: #f5f4fa;
+}
+/* ___________________________________________________________________________________________ */
+/* подвал страницы */
+.footer {
+  background-color: #2f303a;
+}
+.adress {
+  font-style: normal;
+  color: var(--clear-white-text-color);
+}
+.adress-contacts .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+/* ___________________________________________________________________________________________________
+______________________________________________________________________________________________________ */
+/* портфолио */
+.project .project-title;
