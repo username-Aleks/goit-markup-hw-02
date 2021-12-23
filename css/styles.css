@@ -72,7 +72,8 @@ body {
 
 .section-title,
 .advantage-title,
-.team-title {
+.team-title,
+.project-title {
   color: var(--secondary-tex-color);
 }
 .our-team {
@@ -93,4 +94,6 @@ body {
 /* ___________________________________________________________________________________________________
 ______________________________________________________________________________________________________ */
 /* портфолио */
-.project .project-title;
+.prolect-type {
+  color: var(--pimary-tex-color);
+}
