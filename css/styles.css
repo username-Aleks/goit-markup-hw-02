@@ -3,6 +3,7 @@
   --accent-tex-color: #2196f3;
   --secondary-tex-color: #212121;
   --clear-white-text-color: #ffffff;
+  --secondary-background-color: #f5f4fa;
 }
 
 /* палитра */
@@ -21,6 +22,7 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
   color: var(--pimary-tex-color);
+  letter-spacing: 0.03em;
 }
 /* *********************style reset******************************* */
 .list {
@@ -35,6 +37,9 @@ body {
 .logo {
   font-family: raleway, sans-serif;
   color: var(--accent-tex-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 .logo-header {
   color: #000000;
@@ -46,9 +51,18 @@ body {
 /* навигация */
 .site-nav .link {
   color: var(--secondary-tex-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .contacts .link {
   color: var(--pimary-tex-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
 .site-nav .link:focus,
@@ -58,18 +72,58 @@ body {
 .adress-contacts .link:focus {
   color: #2196f3;
 }
-/* ________________________________________________________________________________________________ */
-/* герой */
+/* __________________________________ герой ______________________________________________________________ */
+
 .hero {
   background-color: #2f303a;
 }
 
 .hero-title {
   color: var(--clear-white-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
-/* секция преимущества компании */
+/* _____________________________________основная информация страницы__________________________________________ */
 
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+.advantage-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.advantage-text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.project-type {
+  color: var(--pimary-tex-color);
+  font-size: 16px;
+  line-height: 1.87;
+}
 .section-title,
 .advantage-title,
 .team-title,
@@ -79,21 +133,44 @@ body {
 .our-team {
   background-color: #f5f4fa;
 }
-/* ___________________________________________________________________________________________ */
-/* подвал страницы */
+/* ____________________________________________подвал страницы_______________________________________________ */
 .footer {
   background-color: #2f303a;
 }
 .adress {
-  font-style: normal;
   color: var(--clear-white-text-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
 }
 .adress-contacts .link {
   color: rgba(255, 255, 255, 0.6);
 }
-/* ___________________________________________________________________________________________________
-______________________________________________________________________________________________________ */
-/* портфолио */
-.project-type {
-  color: var(--pimary-tex-color);
+/* ____________________________________________BUTTONS_________________________________________________ */
+.button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  background-color: var(--secondary-background-color);
+  color: var(--secondary-tex-color);
+  cursor: pointer;
+}
+.button:hover,
+.button:focus {
+  background-color: var(--accent-tex-color);
+}
+.main.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--accent-tex-color);
+  color: var(--clear-white-text-color);
+}
+.main.button:hover,
+.main.button:focus {
+  background-color: #188ce8;
 }
