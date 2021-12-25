@@ -51,7 +51,6 @@ body {
 /* навигация */
 .site-nav .link {
   color: var(--secondary-tex-color);
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -100,7 +99,6 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .advantage-text {
@@ -109,6 +107,11 @@ body {
 }
 .team-title {
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+.team-profession {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -160,6 +163,7 @@ body {
 .button:hover,
 .button:focus {
   background-color: var(--accent-tex-color);
+  color: var(--clear-white-text-color);
 }
 .main.button {
   font-weight: 700;
